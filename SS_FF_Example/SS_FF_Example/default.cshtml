@@ -1,0 +1,53 @@
+﻿@inherits ViewPage
+@{
+    ViewBag.Title = "NFL Week 2 Fantasy Projections";
+}
+<script>
+    var app = angular.module('helloApp', []);
+
+    app.controller('helloCtrl', ['$scope', '$http',
+        function ($scope, $http) {
+            $scope.$watch('name', function () {
+                if ($scope.name) {
+                    $http.get('/Projection/LastName/' + $scope.name)
+                        .success(function (response) {
+                            $scope.players = response;
+                        });
+                }
+                else {
+                    $http.get('/Projection')
+                        .success(function (response) {
+                            $scope.players = response;
+                        });
+                }
+            });
+        }
+    ]);
+</script>
+<div ng-app="helloApp">
+    <div ng-controller="helloCtrl">
+        <div>
+            <input class="form-control input-lg" ng-model="name" id="Name" type="text" placeholder="Player's Last Name'">
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Projected Points</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="p in players">
+                <tr>
+                    <td>{{p.FirstName}}</td>
+                    <td>{{p.Lastname}}</td>
+                    <td>{{p.Position}}</td>
+                    <td>{{p.Team}}</td>
+                    <td>{{p.Points}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
