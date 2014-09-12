@@ -3,11 +3,11 @@
   <Profiles />
   <Settings>
     <Setting Name="FFConnectionString" Type="(Connection string)" Scope="Application">
-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=(LocalDB)\v11.0;AttachDbFilename="c:\Users\lbergin\Documents\Visual Studio 2013\Projects\SS_FF_Example\SS_FF_Example\SS_FF_Example\App_Data\FantasyFootballDB.mdf";Integrated Security=True&lt;/ConnectionString&gt;
-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=(LocalDB)\v11.0;AttachDbFilename="c:\Users\lbergin\Documents\Visual Studio 2013\Projects\SS_FF_Example\SS_FF_Example\SS_FF_Example\App_Data\FantasyFootballDB.mdf";Integrated Security=True</Value>
+      <DesignTimeValue Profile="(Default)"><?xml version="1.0" encoding="utf-16"?>
+<SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionString>Data Source=test.db;AttachDbFilename="c:\Users\lbergin\Documents\Visual Studio 2013\Projects\SS_FF_Example\SS_FF_Example\SS_FF_Example\App_Data\FantasyFootballDB.mdf";Integrated Security=True</ConnectionString>
+</SerializableConnectionString></DesignTimeValue>
+      <Value Profile="(Default)">Data Source=test.db;AttachDbFilename="c:\Users\lbergin\Documents\Visual Studio 2013\Projects\SS_FF_Example\SS_FF_Example\SS_FF_Example\App_Data\FantasyFootballDB.mdf";Integrated Security=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SS_FF_Example/SS_FF_Example/default.cshtml">
+    <Files>
+      <File FileName="SS_FF_Example/SS_FF_Example/AppHost.cs" Line="1" Column="1" />
+      <File FileName="SS_FF_Example/SS_FF_Example.ServiceModel/Projection.cs" Line="1" Column="1" />
+      <File FileName="SS_FF_Example/SS_FF_Example.ServiceInterface/ProjectionDataWorker.cs" Line="1" Column="1" />
+      <File FileName="SS_FF_Example/SS_FF_Example/default.cshtml" Line="10" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

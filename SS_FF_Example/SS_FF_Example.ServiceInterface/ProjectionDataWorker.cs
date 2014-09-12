@@ -35,7 +35,7 @@ namespace SS_FF_Example.ServiceInterface
         // Return list of projections based on last name
         public List<Projection> GetProjectionListByLastName(string lastName)
         {
-            return _dbConnection.LoadSelect(_dbConnection.From<Projection>().Where(p => p.Lastname.StartsWith(lastName)));
+            return _dbConnection.LoadSelect(_dbConnection.From<Projection>().Where(p => p.LastName.StartsWith(lastName)));
         }
  
         // Return a single Projection given their ID

@@ -26,7 +26,7 @@ namespace SS_FF_Example.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\v11.0;AttachDbFilename=\"c:\\Users\\lbergin\\Documents\\Visual S" +
+		[global::System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|FantasyFootball.db;AttachDbFilename=\"c:\\Users\\lbergin\\Documents\\Visual S" +
             "tudio 2013\\Projects\\SS_FF_Example\\SS_FF_Example\\SS_FF_Example\\App_Data\\FantasyFo" +
             "otballDB.mdf\";Integrated Security=True")]
         public string FFConnectionString {
